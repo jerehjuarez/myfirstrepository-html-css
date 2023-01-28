@@ -1,0 +1,177 @@
+
+.fixture2{
+	flex-wrap: nowrap;
+    padding: 1%;
+    width: 100%;
+    background-image: url(https://img.freepik.com/fotos-premium/cesped-verde-artificial-rayas-blancas-campo-futbol_45004-166.jpg?w=2000);
+    background-size: cover ;
+   
+}
+
+.octavos {
+	padding-bottom: 15%;
+	padding-left: 10%;
+}
+
+.octavos h2 {
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.octavos p {
+    
+	text-align: center;
+	background-color:  rgb(255, 255, 255);
+	border-radius: 15px
+}
+
+.octavos img {
+	width: 16vh;
+	height: 8vh;
+	border-radius: 00px 15px 00px 15px;
+	border: solid rgb(255, 255, 255) 2px;
+	margin-bottom: 7px;
+}
+
+.cuartos {
+	padding-top: 80%;
+	padding-left: 10%;
+	margin-bottom: 47%;
+}
+
+.cuartos h2 {
+	color: rgba(0, 0, 0, 0.996);
+	font-size: 15px;
+    background-color: aliceblue;
+    border-radius: 15px ;
+    text-align: center;
+}
+
+.cuartos p {
+    width: 100%;
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+	border-radius: 15px
+}
+
+.cuartos img {
+	width: 16vh;
+	height: 8vh;
+	border-radius: 00px 15px 00px 15px;
+	border: solid rgb(255, 255, 255) 2px;
+	margin-bottom: 7px;
+}
+
+.semis {
+	padding-top: 250%;
+	padding-left: 10%;
+}
+
+.semis h2 {
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+    background-color: aliceblue;
+    border-radius: 15px ;
+    text-align: center;
+}
+
+.semis p {
+    width: 100%;
+	text-align: center;
+	background-color:  rgb(255, 255, 255);
+	border-radius: 15px
+}
+
+.semis img {
+	width: 16vh;
+	height: 8vh;
+	border-radius: 00px 15px 00px 15px;
+	border: solid rgb(255, 255, 255) 2px;
+	margin-bottom: 7px;
+}
+
+
+.final {
+	padding-top: 200%;
+	padding-left: 20%;
+
+}
+
+.final h2 {
+	color: rgb(0, 0, 0);
+	font-size:15px;
+    width: 72%;
+    background-color: aliceblue;
+    border-radius: 15px ;
+    text-align: center;
+}
+
+.final p {
+	width: 70%;
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+	border-radius: 15px
+}
+
+.final img {
+	width: 16vh;
+	height: 8vh;
+	border-radius: 00px 15px 00px 15px;
+	border: solid rgb(255, 255, 255) 2px;
+	margin-bottom: 7px;
+}
+
+
+.semifinal {
+	padding-top: 250%;
+}
+
+.semifinal h2 {
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+    background-color: aliceblue;
+    border-radius: 15px ;
+    text-align: center;
+}
+
+.semifinal p {
+    width: 100%;
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+	border-radius: 15px
+}
+
+.semifinal img {
+	width: 16vh;
+	height: 8vh;
+	border-radius: 00px 15px 00px 15px;
+	border: solid rgb(255, 253, 253) 2px;
+	margin-bottom: 7px;
+}
+
+.container-copa img{
+    width: 100%;
+    display: flex;
+    width: 60vh;
+    height: 120vh;
+    padding-top: 35%;
+    justify-content: center;
+}
+
+
+.container-footer {
+	background-color: white;
+    width: 100%;
+    font-size: 25px;
+	color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.container-footer a {
+    margin: 5px;
+}

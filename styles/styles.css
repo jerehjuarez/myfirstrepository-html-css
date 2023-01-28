@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(51, 0, 0), rgb(0, 0, 0))
+}
+
+.carousel-item p {
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+    position: absolute;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.793);
+    text-decoration: underline rgb(0, 0, 0);
+}
+
+.carousel-item p:hover {
+    color: rgb(246, 255, 0);
+}
+
+.carousel-inner {
+    padding: 2%;
+}
+
+.carousel-inner img {
+    border: solid rgba(97, 0, 0, 0.905) 7px;
+    border-radius: 20px;
+    width: 65vh;
+    height: 65vh;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: right;
+}
+
+.nav-item {
+    color: rgba(97, 0, 0, 0.905);
+    margin: 10px;
+    border: solid rgba(97, 0, 0, 0.905);
+    border-radius: 10%;
+}
+
+.container-name {
+    display: flex;
+    margin-left: 20px;
+}
+
+.container-group {
+    padding: 5px;
+    width: 100%;
+}
+
+.container-group p {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.179);
+}
+
+.container-group img {
+    margin-right: 20px;
+    width: 16vh;
+    height: 8vh;
+    border-radius: 00px 15px 00px 15px;
+    border: solid white 2px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.container-paises {
+    border: solid white 1px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 17px;
+    background-image: url(https://img.freepik.com/fotos-premium/cesped-verde-artificial-rayas-blancas-campo-futbol_45004-166.jpg?w=2000);
+    background-size: cover;
+    border-radius: 30px 0px 10% 0%;
+    width: 300px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-paises a {
+    text-decoration: none;
+    width: 100%;
+    border-radius: 30px 0px 0% 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(51, 0, 0), rgb(0, 0, 0));
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.title h3 {
+    color: rgba(255, 255, 255, 0.872);
+    font: normal 100px sans-serif;
+    height: 100px;
+    letter-spacing: 9px;
+    text-align: center;
+    width: 100%;
+    animation: move linear 2000ms infinite;
+}
+
+@keyframes move {
+    0% {
+        text-shadow:
+            4px -4px 0 rgb(28, 210, 0),
+            -2px 2px 0 rgb(28, 210, 0),
+            -1px 1px 0 rgb(28, 210, 0);
+    }
+}
+
+
+.qatar:hover {
+    color: black;
+    background: linear-gradient(100deg, white, rgb(49, 2, 2));
+    border-radius: 10%;
+}
+
+.ecuador:hover {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(255, 0, 0), rgb(0, 25, 169), rgb(234, 255, 0));
+    border-radius: 10%;
+}
+
+.senegal:hover {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(100deg, rgb(0, 59, 0), rgba(234, 255, 0, 0.903), rgb(155, 0, 0));
+    border-radius: 10%;
+}
+
+.holanda:hover {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(8, 0, 255), rgb(255, 255, 255), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.inglaterra:hover {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(50deg, rgb(255, 0, 0), rgb(6, 0, 169), rgb(255, 255, 255));
+    border-radius: 10%;
+}
+
+.iran:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(92, 0, 0), rgb(255, 255, 255), rgb(11, 114, 0));
+    border-radius: 10%;
+}
+
+.eeuu:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(147, 0, 0), rgb(255, 255, 255), rgb(147, 0, 0), rgb(255, 255, 255), rgb(147, 0, 0));
+    border-radius: 10%;
+}
+
+.gales:hover {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(16, 70, 0), rgb(255, 255, 255));
+    border-radius: 10%;
+}
+
+.argentina:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 153, 255), rgb(255, 255, 255), rgb(0, 152, 218));
+    border-radius: 10%;
+}
+
+.saudi:hover {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(16, 70, 0), rgb(16, 88, 0));
+    border-radius: 1
+}
+
+.mexico:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgb(4, 124, 0), rgb(255, 255, 255), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.polonia:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(255, 0, 0), rgb(255, 255, 255));
+    border-radius: 10%;
+}
+
+.francia:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgb(0, 16, 98), rgb(255, 255, 255), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.australia:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 16, 98), rgb(255, 255, 255));
+    border-radius: 10%;
+}
+
+.dinamarca:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(255, 0, 0), rgb(255, 255, 255), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.tunez:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(255, 54, 54), rgb(255, 255, 255), rgb(255, 55, 55));
+    border-radius: 10%;
+}
+
+.españa:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(255, 24, 24), rgb(255, 220, 44), rgb(255, 24, 24));
+    border-radius: 10%;
+}
+
+.crica:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 16, 98), rgb(255, 0, 0), rgb(255, 255, 255));
+    border-radius: 10%;
+}
+
+.alemania:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(255, 247, 0), rgb(255, 44, 44), rgb(0, 0, 0));
+    border-radius: 10%;
+}
+
+.japon:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(255, 44, 44), rgb(255, 255, 255));
+    border-radius: 10%;
+}
+
+.belgica:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgb(0, 0, 0), rgb(238, 255, 0), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.canada:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgb(255, 0, 0), rgb(255, 255, 255), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.marruecos:hover {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(100deg, rgb(255, 0, 0), rgb(0, 39, 6), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.croacia:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 0, 95), rgb(255, 255, 255), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.brasil:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgb(9, 134, 0), rgb(204, 255, 0), rgb(9, 134, 0));
+    border-radius: 10%;
+}
+
+.serbia:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(255, 255, 255), rgb(0, 27, 150), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.suiza:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgb(255, 0, 0), rgb(255, 255, 255), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.camerun:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgb(12, 142, 0), rgb(255, 44, 44), rgb(255, 238, 0));
+    border-radius: 10%;
+}
+
+.portugal:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgb(5, 92, 0), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.ghana:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(7, 79, 0), rgb(221, 255, 0), rgb(255, 0, 0));
+    border-radius: 10%;
+}
+
+.uruguay:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(255, 255, 255), rgb(0, 4, 255), rgb(255, 255, 255));
+    border-radius: 10%;
+}
+
+.corea:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+    border-radius: 10%;
+}

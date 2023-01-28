@@ -1,0 +1,126 @@
+
+
+.navbar-nav {
+    width: 100%;
+    justify-content: right;
+}
+
+.nav-item {
+    color: rgba(97, 0, 0, 0.905);
+    margin: 10px;
+    border: solid rgba(97, 0, 0, 0.905);
+    border-radius: 10%;
+}
+
+
+.container-table{
+    display: flex;
+    width: 100%;
+    padding-top: 3%;
+    justify-content: center;
+}
+
+.container-table img{
+    padding: 2%;
+    width: 40px;
+}
+
+.groupa{
+    color: aliceblue;
+    width: 40%;
+    border: solid rgb(255, 255, 255) 5px;
+   
+}
+
+.container-statistics{
+    border: solid rgb(255, 255, 255) 5px;
+    font-size: 20px;
+}
+
+.paises{
+    font-weight:500;
+}
+
+.infa{
+    color: white;
+    justify-content: space-between;
+    padding: 03%;
+    padding-left: 30%;
+}
+ 
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-name {
+    display: flex;
+    margin-left: 20px;
+}
+
+.container-group {
+    padding-top: 5%;
+    width: 100%;
+}
+
+.container-group p {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.179);
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.container-group img {
+    margin-right: 20px;
+    width: 16vh;
+    height: 8vh;
+    border-radius: 00px 15px 00px 15px;
+    border: solid white 2px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.container-paises {
+    border: solid rgb(255, 255, 255) 1px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 17px;
+    background-image: url(https://img.freepik.com/fotos-premium/cesped-verde-artificial-rayas-blancas-campo-futbol_45004-166.jpg?w=2000);
+    background-size: cover;
+    border-radius: 30px 0px 10% 0%;
+    width: 300px;
+}
+
+.container-vs{
+    padding-top: 25%;
+    font-size: 30px;
+    margin: 1px;
+}
+
+.resultado {width: 100%;
+    margin-left: 70px;
+}
+
+body{
+    background:linear-gradient( rgb(51, 0, 0) , rgb(0, 0, 0) )
+}
+
+.container-footer {
+	background-color: white;
+    width: 100%;
+    font-size: 25px;
+	color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.container-footer a {
+    margin: 5px;
+}
